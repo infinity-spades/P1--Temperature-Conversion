@@ -8,7 +8,7 @@ if(isset($_POST["TempInput"])){
 	
 	if($test) {
 	
-		echo "Test is ".$test;
+		// echo "Test is ".$test;
 	  	$message = "<p>Your temperature is: {$_POST['TempInput']}";
 	  	
 	  	if($_POST["TypeTemp"]=="fahrenheit") {
