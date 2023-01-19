@@ -1,7 +1,8 @@
 <?php
 //tempconv.php
 #
-# Version 2 updated by Rich & Etsegenet 1/13/22
+# Version 2 updated by Rich & Etsegenet 1/13/23
+# Version 3 updated by Rich 1/19/23 to comply with PSR-2
 #
 if (isset($_POST["TempInput"])){
 	$test = is_numeric($_POST["TempInput"]);
